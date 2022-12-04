@@ -7,7 +7,7 @@ Penggunaan moodle secara offline (jaringan lokal) masih ada celah jika siswa bis
 2. Memastikan javascript aktif
 3. Safe Exam Browser
 
-Cara 1 tidak berlaku jika peserta menggunakan split screen/floating window. Metode 3 menurut pengalaman akan menghasilkan banyak masalah jika **diwajibkan** menggunakan laptop. Sehingga bisa membuka dua browser sekaligus. Oleh karena itu, dibuatlah cara prentif lain,yakni mencatat siswa yang terhubung dengan internet, baik utk searching maupun untuk komunikasi / kerjasama
+Cara 1 tidak berlaku jika peserta menggunakan split screen/floating window. Sehingga bisa membuka dua browser sekaligus. Metode 3 menurut pengalaman akan menghasilkan banyak masalah jika **diwajibkan** menggunakan laptop.  Oleh karena itu, dibuatlah cara prentif lain, yakni mencatat siswa yang terhubung dengan internet, baik utk searching maupun untuk komunikasi / kerjasama
 
 di `/moodle/mod/quiz/renderer.php`  
 siapkan 
