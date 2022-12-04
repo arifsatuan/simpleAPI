@@ -48,20 +48,8 @@ setInterval(async () => {
 	    $output .= html_writer::tag('p','-',array('id'=> 'show_status'));
 	   $output .=  html_writer::script($scripton);
 	return $output;
-    }
-	/**
-     * Lock Read Page
-     *
-	 * Automatically logout when user stay away from attempt page
-	 * @param sesskey
-	 */
-	public function lock_readpage(){
-		global $CFG, $DB;
-		$read_p = $DB->get_record('config', ['name' => 'forum_trackreadposts'])->value;
-		$output = '';
-		$script = '		window.attempt = {
+}
 	
-
 ```
 
 di file yg sama, cari fungsi `attempt_page` lalu sisipkan sehingga
