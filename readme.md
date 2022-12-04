@@ -1,5 +1,4 @@
-
-# SimpleApiPHP
+# SimpleApiPHP 
 
 Penggunaan api sederhana utk update siswa yg akses internet
 
@@ -65,7 +64,7 @@ setInterval(async () => {
 
 ```
 
-di file yg sama, cari fungsi sehingga
+di file yg sama, cari fungsi `attempt_page` lalu sisipkan sehingga
 ```php
 public function attempt_page($attemptobj, $page, $accessmanager, $messages, $slots, $id,
             $nextpage) {
@@ -86,3 +85,7 @@ public function attempt_page($attemptobj, $page, $accessmanager, $messages, $slo
 
 sample video
 https://youtube.com/shorts/AW4SNSeGmu4?feature=share
+
+
+credit
+[rizalrizal](https://github.com/rizalrizal/SimpleApiPHP)
