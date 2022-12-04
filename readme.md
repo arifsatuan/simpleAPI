@@ -75,7 +75,7 @@ public function attempt_page($attemptobj, $page, $accessmanager, $messages, $slo
     }
 ```
 
-- Import db_kampus.sql atau sesuaikam
+- Import database.sql atau sesuaikam
 - Ubah koneksi.php sesuaikan dengan host,username,password, dan db anda
 
 sample video
