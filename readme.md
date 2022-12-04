@@ -87,5 +87,5 @@ sample video
 https://youtube.com/shorts/AW4SNSeGmu4?feature=share
 
 
-credit
+thanks to
 [rizalrizal](https://github.com/rizalrizal/SimpleApiPHP)
