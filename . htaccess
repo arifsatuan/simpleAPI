@@ -1,0 +1,7 @@
+Options -Indexes
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^ujian/?$ ujian.php [NC,L]
+RewriteRule ^ujian/([0-9]+)/?$ ujian.php?id=$1 [NC,L] 
