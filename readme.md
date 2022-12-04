@@ -1,6 +1,12 @@
-# SimpleApiPHP 
+# SimpleApiPHP
 
-Penggunaan api sederhana utk update siswa yg akses internet
+Penggunaan api sederhana utk cek siswa yg akses internet. 
+
+Penggunaan moodle secara offline (jaringan lokal) masih ada celah jika siswa bisa searching atau bertanya ke teman. Sejauh ini cara mengatasinya adalah 
+1. Anti tab dengan deteksi `window.onblur` pada javascript, maka perlu
+2. Memastikan javascript aktif
+3. Safe Exam Browser
+Cara 1 tidak berlaku jika peserta menggunakan split screen/floating window. Sehingga bisa membuka dua browser sekaligus. Oleh karena itu, dibuatlah cara prentif lain,yakni mencatat siswa yang terhubung dengan internet, baik utk searching maupun untuk komunikasi / kerjasama
 
 di `/moodle/mod/quiz/renderer.php`  
 siapkan 
